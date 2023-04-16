@@ -238,6 +238,7 @@ impl MacroCellBranch {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::state_buffer::parse_plaintext;
 
     fn assert_result(world_grid: &str, expected_grid: &str) {
         let mut cache = Cache::new();
