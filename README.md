@@ -1,0 +1,3 @@
+# GLife
+
+Goose's HashLife
